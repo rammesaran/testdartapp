@@ -1,6 +1,7 @@
 void main() {
   //bool result = searchInsertTwo([1, 3, 56, 66, 68, 80, 99, 105, 450], 81);
-  int resultData = searchInsert([3, 4, 9, 10], 5);
+  //int resultData = searchInsert([3, 4, 9, 10], 5);
+  int resultData = sumFromOneTo(10);
   print("resultData is $resultData");
 }
 
@@ -62,4 +63,8 @@ int searchInsert(List<int> nums, int target) {
     }
   }
   return 0;
+}
+
+int sumFromOneTo(int n) {
+  return n * (n + 1) ~/ 2;
 }
